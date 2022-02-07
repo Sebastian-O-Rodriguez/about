@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sebastian O Rodriguez</title>
+    <description>Home</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 07 Feb 2022 17:53:20 -0500</pubDate>
+    <lastBuildDate>Mon, 07 Feb 2022 17:53:20 -0500</lastBuildDate>
+    <generator>Jekyll v3.9.1</generator>
+    
+      <item>
+        <title>Simple Sound</title>
+        <description>
+</description>
+        <pubDate>Sat, 04 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020/07/04/simple-sound.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/07/04/simple-sound.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Music using Programming</title>
+        <description>
+</description>
+        <pubDate>Fri, 03 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020/07/03/nyquist-comp.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/07/03/nyquist-comp.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Analyzing Song Data Tutorial</title>
+        <description>
+</description>
+        <pubDate>Thu, 02 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020/07/02/tutorial.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/07/02/tutorial.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Playlist Generation with ML</title>
+        <description>
+</description>
+        <pubDate>Wed, 01 Jul 2020 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2020/07/01/playlist-prediction.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/07/01/playlist-prediction.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
