@@ -6,5 +6,5 @@ gem "kramdown", ">= 2.3.1"
 gem "addressable", ">= 2.8.0"
 gem "kramdown-parser-gfm"
 gemspec
-
+gem "jgd"
 gem "webrick", "~> 1.7"
