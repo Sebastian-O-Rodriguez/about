@@ -16,38 +16,38 @@ img.ring {
 </div>
 <br>
 <div align="left">
-Music is an essential part of life and, for me, is a creative outlet that has no wrong answers. Nowadays, there are many options for creating music, and the most prominent is a digital audio workstation (DAW), such as GarageBand, ProTools, or Logic Pro. Through my experience, I found that DAW users break down into two categories: those who are extremely comfortable and second-natured in their respective DAW, and casual users who look expertise and find it overwhelming. Now, I am not trying to replace DAWs, or imply that they do not offer great features for music creation; However, I am saying they do not offer a simple approach. I do not see many options that simplify the music creation process for more inexperienced users. I want to make something music producers, children, and elderly people alike could enjoy use as a creative outlet. I begin my project with one goal: Empower anyone to make music.
+Music is an essential part of life and, for me, it is a creative outlet that has no wrong answers. With the rise of digital technology, more opportunities exist to express yourself through music than ever before. The most prominent software is a digital audio workstation (DAW), such as GarageBand, ProTools, or Logic Pro. Through my experience and research, I found that DAW users break down into two categories: those who are extremely comfortable and second-natured in their respective DAW, and casual users who seek expertise but find it overwhelming. I am not trying to replace DAWs, or imply that they do not offer great features for music creation; however, I am saying they do not offer a simple approach. I don't see many options that simplify the music creation process for more inexperienced users. I want to make something music producers, children, and elderly people alike could enjoy using as a creative outlet. I began my project with one goal: Empower anyone to make music.
 <br><br>
-With this in mind, I start with the traditional flow of music creation in DAWs is wide-open. The digital audio workstation has every option at the users disposal without distinction and indication of when they should be used. Counterintuitively, this unstructured layout actually reduces the creativity of the user with decision overload. This is where I begin restructuring the music creation process. In Simple Sound, the flow is modularized into a simple flow: Add sounds to use, play and manipulate those sounds, record.
+With this in mind, I started with the traditional flow of music creation in DAWs being wide-open. The digital audio workstation has every option at the user's disposal without distinction and indication of when they should be used. Counterintuitively, this unstructured layout actually reduces the creativity by causing decision overload. This is where restructuring the music creation process. In Simple Sound, the flow is modularized into a simple flow: Add sounds to use, play and manipulate those sounds, record.
 <br><br>
 <h5><p align="center">Simple Sound Dashboard</p></h5>
 <img class="img-responsive" src="img/dashboard.png" title="Simple Sound Dashboard">
 <br><br>
-To start, one can input a preset sound or a file of your choosing in the Sample Select Menu.
+To start, input a preset sound or a file of your choosing in the Sample Select Menu.
 <br><br>
 <h5><p align="center">Sample Select Menu and Active Sounds Panel</p></h5>
 <img class="img-responsive" src="img/sample-select.png" title="Sample Select Menu">
 <br><br>
-Alternatively, the Mic Record module can be used to record sounds live.
+Alternatively, use the Mic Record module to record sounds live.
 <br><br>
 <h5><p align="center">Record Live Sounds Module</p></h5>
 <img class="img-responsive" src="img/mic-record.png" title="Live Record">
 <br><br>
-When sound is loaded in, by way of the Sample Select Menu, the Playback Module can be easily used to create new sounds!
+When sound is loaded in by way of the Sample Select menu, use the Playback module to create new sounds!
 <br><br>
 <h5><p align="center">Get Creative! Playback Module</p></h5>
 <img class="img-responsive" src="img/playback.png" title="Playback Module">
 <br><br>
-One can use the Record Module to record output, and either add it to a track or send it to the Sandbox of Sounds to be edited and added back into the Sample Select Menu for re-use in playback.
+Use the Record Module to record output, and either add it to a track or send it to the Sandbox of Sounds to be edited and added back into the Sample Select menu for re-use in playback.
 <br><br>
-<h5><p align="center">Record Playback and Sandbox of Sounds Modules, respectively</p></h5>
+<h5><p align="center">Record Playback Module and  Sandbox of Sounds Module</p></h5>
 <img class="img-responsive" src="img/record-and-sandbox.jpg" title="Record Playback">
 <br><br>
-When a recording is saved to the tracklist, two things happen. First, the track is added to its corresponding track in the Mix It Module.
-<h5><p align="center">Mix It! Tracklist Viewer & Composition Panel</p></h5>
+When a recording is saved to the tracklist, two things happen. First, the track is added to its corresponding track in the Mix It module.
+<h5><p align="center">Mix It! Tracklist Viewer and Composition Panel</p></h5>
 <img class="img-responsive" src="img/tracklist.png" title="Playback Module">
 <br><br>
-Second, a ring appears on the Simple Sound Dashboard to represent each additional track added to the 'Mix It' Module.
+Second, a ring appears on the Simple Sound dashboard to represent each additional track added to the 'Mix It' module.
 <h5><p align="center">A Track Ring Appears</p></h5>
 <img class="img-responsive" src="img/onering.png" title="Track Ring" width="80%">
 <br><br>

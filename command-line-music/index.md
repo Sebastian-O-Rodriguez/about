@@ -10,29 +10,24 @@ permalink: /command-line-music/
 </div>
 <br>
 <div align="left">
-During my time at Carnegie Mellon University, I studied under Roger Dannenberg, professor of computer science, art and music at CMU, as well as the lead creator of Nyquist.
-Nyquist, 
-found <a href="https://www.cs.cmu.edu/~rbd/doc/nyquist/part2.html#2">here</a>, 
-is described as "a language for sound synthesis and music composition. Unlike score languages that tend to deal only with events, or signal processing languages that tend to deal only with signals and synthesis, Nyquist handles both in a single integrated system." This means that signal processing and sound synthesis in Nyquist is more akin to writing programs in Python than it is to creating music with a digital audio workstation (DAW), like GarageBand.
+ During my time at Carnegie Mellon University, I had the opportunity to study under Professor Roger Dannenberg, who is a professor emeritus of computer science, art, and music, as well as one of the creators of Nyquist. Nyquist is a language for sound synthesis and music composition that handles both signal processing and sound synthesis in a single integrated system. Unlike score languages that deal only with events or signal processing languages that focus only on signals and synthesis, Nyquist combines the two in a unique way.
 <br><br>
-To create my composition using Nyquist, I started with the nineteen second sample loaded into the nyquist IDE, playable below.
+ To create my composition using Nyquist, I started with a 19-second sample of "100 Grandkids" by Mac Miller, which can be played below.
 <br><br>
 <h4>100 Grandkids, Mac Miller</h4>
 <br>
 <audio src="audio/100-grandkids-sample.mp3" controls preload></audio>
 
 <br><br>
-In order to create the sounds in my final composition, I employed numerous signal processing techniques such as sound-stretching, amplitude modulation, and low-pass filters. Additionally, the creation of my composition was primarily executed using 
-multiple functions like the <i>Load Sample</i>. For those unfamiliar with Nyquist's coding syntax SAL, the Load Sample function reads the wave file, plays it backwards, stretches the sample by a given value, and sets its volume with amps. For those familiar with python and other common programming languages, these functions may be readable, although syntax is distinct from more widespread languages.
+ I employed several signal processing techniques, such as sound-stretching, amplitude modulation, and low-pass filters, to create the sounds in my final composition. The creation of my composition primarily relied on multiple functions, such as the <i>Load Sample</i> function. For those unfamiliar with Nyquist's coding syntax SAL, the Load Sample function reads a wave file, plays it backwards, stretches the sample by a given value, and sets its volume with amps. For those familiar with Python and other programming languages, these functions may be readable, although the syntax is distinct from more widespread languages.
 <br><br>
 <p class="text-center"><strong><i>Load Sample Function</i></strong></p>
 <img class="img-responsive" src="img/ls-and-bs-functions-1320x668.png" title="Functions in Nyquist">
 <br><br>
-This is how interaction with nyquist is, and how the composition was created. Interestingly, the techniques used to process and synthesize sounds are no difference from graphical interfaces other softwares like GarageBand, althought this format offers greater control over the produced sound. It comes at an obvious cost of having to code your actions instead of manipulating the sound more interactively. 
+ Although Nyquist requires coding instead of manipulating sound interactively, the techniques used to process and synthesize sounds are no different from those used in graphical interfaces such as GarageBand. However, the coding format offers greater control over the produced sound.
 <br>
 <br>
-In the end, my composition "Elevator Service" was created by running a simple function
-<mark>play sim(sound(comp()) * 0.7, sound(make-beat()) * 0.7)</mark>. Functions <mark>comp()</mark> and <mark>make-beat()</mark> are functions that call other functions. To see this in more detail, view <a href="https://github.com/Sebastian-O-Rodriguez/about/tree/master/command-line-music/comp/comp.sal">the full composition</a>, written in SAL.<br> <br>
+In the end, my composition, "Elevator Service," was created by running a simple function <mark>play sim(sound(comp()) * 0.7, sound(make-beat()) * 0.7)</mark>. Functions <mark>comp()</mark> and <mark>make-beat()</mark> call other functions. For more detail, you can view <a href="https://github.com/Sebastian-O-Rodriguez/about/tree/master/command-line-music/comp/comp.sal">the full composition</a>, which is written in SAL.<br> <br>
 <h4>&emsp;Final Composition</h4>
 <br>
 <audio src="audio/elevator-service.mp3" controls preload></audio>
