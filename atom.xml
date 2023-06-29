@@ -1,26 +1,52 @@
----
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title | xml_escape }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <title>Sebastian O Rodriguez</title>
+ <link href="https://sebrod.com/atom.xml" rel="self"/>
+ <link href="https://sebrod.com/"/>
+ <updated>2023-06-29T15:42:29-04:00</updated>
+ <id>https://sebrod.com</id>
  <author>
-   <name>{{ site.admin_name }}</name>
-   <email>{{ site.data.global.admin_email }}</email>
+   <name>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sebastian Osmel Rodriguez</name>
+   <email></email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>Simple Sound</title>
+   <link href="https://sebrod.com/2020/07/04/simple-sound.html"/>
+   <updated>2020-07-04T00:00:00-04:00</updated>
+   <id>https://sebrod.com/2020/07/04/simple-sound</id>
+   <content type="html">
+</content>
  </entry>
- {% endfor %}
+ 
+ <entry>
+   <title>Music using Programming</title>
+   <link href="https://sebrod.com/2020/07/03/nyquist-comp.html"/>
+   <updated>2020-07-03T00:00:00-04:00</updated>
+   <id>https://sebrod.com/2020/07/03/nyquist-comp</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Analyzing Song Data Tutorial</title>
+   <link href="https://sebrod.com/2020/07/02/tutorial.html"/>
+   <updated>2020-07-02T00:00:00-04:00</updated>
+   <id>https://sebrod.com/2020/07/02/tutorial</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Playlist Generation with ML</title>
+   <link href="https://sebrod.com/2020/07/01/playlist-prediction.html"/>
+   <updated>2020-07-01T00:00:00-04:00</updated>
+   <id>https://sebrod.com/2020/07/01/playlist-prediction</id>
+   <content type="html">
+</content>
+ </entry>
+ 
 
 </feed>
